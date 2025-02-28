@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container2 {
+        width: 1350px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7000ff;
+}
