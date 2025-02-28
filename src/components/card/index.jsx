@@ -7,7 +7,7 @@ import {IoMdHeartEmpty} from "react-icons/io"
 
 const CardItem = ({data}) => {
     return (
-        <div className="flex flex-col justify-between gap-[8px] border relative border-gray-200 p-[10px] rounded-lg">
+        <div className="flex flex-col h-full justify-between gap-[8px] border relative border-gray-200 p-[10px] rounded-lg">
             <IoMdHeartEmpty className=" absolute top-[20px] right-[20px] text-[26px] opacity-60 hover:opacity-100 hover:text-red-500 cursor-pointer" />
 
             <img
